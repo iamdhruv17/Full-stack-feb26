@@ -1,0 +1,6 @@
+.nav{
+    background-color: rgb(221, 246, 75);
+    padding:12px;
+    display:flex;
+    gap:20px
+}

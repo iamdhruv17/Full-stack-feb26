@@ -1,0 +1,23 @@
+var  have global scope
+let and const have local scope . works only inside the block
+
+var and let have mutability
+ const are immutable
+
+hoisting : using any variable befour declaring it 
+var allows hoisting 
+let and var not
+
+
+=== -> strict equality 
+
+typeof() --> used to find the type of the variable
+
+
+forof loop use for iterate on arr
+for in loop we usualy use to iterate on object
+
+
+
+npm run dev
+ctrl +c ends the live server
