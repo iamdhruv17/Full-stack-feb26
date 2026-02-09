@@ -14,8 +14,14 @@ function App() {
       <Header title="My Website" />
             {/* <Header title="hello Website" /> */}
 
-      <h1>Hello, World!</h1>
+    
+    <h1>Hello, World!</h1>
     <p2>This is a paragraph in the App component.</p2>
+
+    <card>
+      <h4>Card Title . hello my name is dhruv</h4>
+      <p>Card Content</p>
+    </card>
     <Footer year={y} company={c} />
 
     {/* <Registration/> */}

@@ -1,9 +1,11 @@
 import './Header.css'
 
-export default function Header(pps){
+export default function Header({card}){
     return(
         <div>
-        <h1>{pps.title}</h1>
+        {/* <h1>{title}</h1> */}
+        {/* <h2>{c[state]}</h2> */}
+        {card}
         <nav className="nav">
             <a herf="#">Home</a>
             <a herf="#">About</a>
