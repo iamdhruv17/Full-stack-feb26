@@ -3,6 +3,7 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import EventToDo from './EventToDo.jsx'
+import Counter from './counter.jsx'
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
 
   return (
     <>
-    <EventToDo/>
+    {/* <EventToDo/> */}
+    <Counter/>
 
     </>
   )

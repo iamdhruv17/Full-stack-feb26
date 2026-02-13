@@ -5,17 +5,23 @@ export default function EventToDo(){
 
     function handleSubmit(e){
         e.preventDefault();
-        const input =e.target.value;
-        const inputValues= input.trim();
+        const input =e.target.task;
+        const inputValues= input.value.trim();
         if(inputValues===""){
             alert("Task can not be empty");
             return;
         }
         const li=document.createElement("li");
-        li.innerHTML=<span>${inputValues}</span>
-
+        li.innerHTML=`<span>${inputValues}</span>
+        <button class="deletebtn">Delete</button>`;
+        document.getElementById("task List").appendChild(li);
 
     }
+    function handleClickList(e){
+        if(e.target.className==="deletebtn"){
+            e.target.className==="deletebtn";
+            li.remove();
+        }}
     return(
         <>
         <h1>To Do App</h1>
@@ -23,11 +29,11 @@ export default function EventToDo(){
         
         <form onSubmit={handleSubmit}>
         <input type="text" name="task" placeholder="Add your task here"/>
-        <input type="submit">Add Task</input>
+        <button type="submit">Add Task</button>
         
         </form>
         <ul id="task List" onClick={handleClickList}>
-            <li></li>
+            
         </ul>
         </>
         
