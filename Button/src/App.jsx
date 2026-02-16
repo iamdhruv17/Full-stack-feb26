@@ -1,19 +1,14 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+
 import './App.css'
-import EventToDo from './EventToDo.jsx'
-import Counter from './counter.jsx'
-
-
+import EventToDo from './EventToDo'
+// import EventTodo from './EventTodo'
+// import Counter from './Counter'
 function App() {
-  // const [count, setCount] = useState(0)
+  
 
   return (
     <>
-    {/* <EventToDo/> */}
-    <Counter/>
-
+     <EventToDo />
     </>
   )
 }
