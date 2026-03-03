@@ -20,8 +20,8 @@ function App() {
       <li>Secure Data Storage: Your data is securely stored and backed up.</li>   
       <li>Customizable Categories: Create custom categories for better organization.</li>
       <li>Recurring Expenses: Set up recurring expenses for regular bills.</li>
-      <li>Export Data: Export your expense data in CSV format for further analysis.</li>  
-      <li>Mobile App: Access your expenses on the go with our mobile app.</li>  
+      {/* <li>Export Data: Export your expense data in CSV format for further analysis.</li>   */}
+      {/* <li>Mobile App: Access your expenses on the go with our mobile app.</li>   */}
     </ul>
 
     
