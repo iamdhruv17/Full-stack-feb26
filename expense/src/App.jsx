@@ -23,6 +23,7 @@ function App() {
       <li>Export Data: Export your expense data in CSV format for further analysis.</li>  
       <li>Mobile App: Access your expenses on the go with our mobile app.</li>  
     </ul>
+    <p>Start managing your expenses today and take control of your finances!</p>
 
     
     </>
