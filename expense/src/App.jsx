@@ -19,8 +19,8 @@ function App() {
       <li>Multi-Device Sync: Access your expense data across multiple devices.</li>
       <li>Secure Data Storage: Your data is securely stored and backed up.</li>   
       <li>Customizable Categories: Create custom categories for better organization.</li>
-      <li>Recurring Expenses: Set up recurring expenses for regular bills.</li>
-      <li>Export Data: Export your expense data in CSV format for further analysis.</li>  
+      {/* <li>Recurring Expenses: Set up recurring expenses for regular bills.</li>
+      <li>Export Data: Export your expense data in CSV format for further analysis.</li>   */}
       <li>Mobile App: Access your expenses on the go with our mobile app.</li>  
     </ul>
     <p>Start managing your expenses today and take control of your finances!</p>
