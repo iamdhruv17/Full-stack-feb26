@@ -13,7 +13,7 @@ export default function Counter(){
     function handleDecrement(){
         if(count===0){
             alert("Count can not be less than 0");
-            return;
+            return;+
         }
         setCount(count=>count-1);
         console.log(count);

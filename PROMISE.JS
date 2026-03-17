@@ -1,4 +1,6 @@
-let promise=new Promise((resolve,reject)=>{
+import { useEffect } from "react";
+// import 
+let p=new Promise((resolve,reject)=>{
     let s=true;
     if(s){
         resolve("Data Connected");
@@ -11,3 +13,5 @@ fetch("https://jsonplaceholder.typicode.com/users")
 .then(response=>response.json())
 .then(data=>console.log(data))
 .catch(error=>console.log(error))
+
+useEffect(()=>{},[])
