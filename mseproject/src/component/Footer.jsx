@@ -6,3 +6,4 @@ export default function Footer(){
             <footer>Contact us at info@studenthelp.com</footer>
         </footer>
     );
+}
